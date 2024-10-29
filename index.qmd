@@ -1,0 +1,18 @@
+---
+title: "Robinson Amanyiraho"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/amanyiraho
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/amanyiraho-robinson-822071180/
+    - icon: github
+      text: Github
+      href: https://github.com/amanyiraho
+---
+
+Robinson Amanyiraho is a Project Coordinator and e-health specialist with expertise in Immunization and Vaccine Preventable Diseases Surveillance information system strengthening.
