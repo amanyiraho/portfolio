@@ -13,6 +13,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/amanyiraho
+    - icon: envelope
+      text: Contact me
+      href: mailto:amanyiraho@gmail.com
 ---
 
 Robinson Amanyiraho is a Project Coordinator and e-health specialist with expertise in Immunization and Vaccine Preventable Diseases Surveillance information system strengthening.

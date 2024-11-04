@@ -1,0 +1,28 @@
+---
+title: "dhis2r 0.2.0"
+author: "Robinson Amanyiraho"
+date: "2024-10-29"
+categories: [DHIS2, R, API, Health Informatics]
+image: "image.png"
+---
+
+## dhis2r 0.2.0
+
+-   In `Dhis2r$new()` now includes `api_token = NULL` for authentication via personal access token option
+
+-   New `dhis2_connection$get_any_analytic()` to GET long DHIS2 resources.
+
+-   Functions now print out the resource link being queried
+
+#### 2. Using Personal Access Token (PAT)
+
+Alternatively you can generate a [personal access token](https://docs.dhis2.org/en/develop/using-the-api/dhis-core-version-master/introduction.html#webapi_pat_authentication) and use that to connect.
+
+``` r
+library(dhis2r)
+
+# Replace the value of api_token with the token you have generated
+
+dhis2_play_connection <- Dhis2r$new(base_url = "https://play.im.dhis2.org/stable-2-40-5",
+                                    api_token = "d2pat_2EkxmqdxtwAGDGe1hXzpWEixYdvHGRw71587176066")
+```
