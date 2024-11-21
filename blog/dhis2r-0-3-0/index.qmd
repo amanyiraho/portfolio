@@ -1,0 +1,17 @@
+---
+title: "dhis2r 0.3.0"
+author: "Robinson Amanyiraho"
+date: "2024-11-21"
+categories: [DHIS2, R, API, Health Informatics]
+image: "image.png"
+---
+
+## dhis2r 0.3.0
+
+* Updated the package to fail gracefully with an informative message if the resource is not available or has changed and doesn't give a check warning nor error
+
+* Now API calls function print a massage "No internet connection!" if there is no internet connection instead of an error
+
+* The url is of the queried API endpoint is printed using `message()` instead of `print()`
+
+

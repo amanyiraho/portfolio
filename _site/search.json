@@ -11,7 +11,7 @@
     "href": "projects.html",
     "title": "Robinson Amanyiraho",
     "section": "",
-    "text": "dhis2r 0.2.0\n\n\n\n\n\n\nDHIS2\n\n\nR\n\n\nAPI\n\n\nHealth Informatics\n\n\n\n\n\n\n\n\n\nOct 29, 2024\n\n\nRobinson Amanyiraho\n\n\n\n\n\n\nNo matching items"
+    "text": "dhis2r 0.3.0\n\n\n\n\n\n\nDHIS2\n\n\nR\n\n\nAPI\n\n\nHealth Informatics\n\n\n\n\n\n\n\n\n\nNov 21, 2024\n\n\nRobinson Amanyiraho\n\n\n\n\n\n\n\n\n\n\n\n\ndhis2r 0.2.0\n\n\n\n\n\n\nDHIS2\n\n\nR\n\n\nAPI\n\n\nHealth Informatics\n\n\n\n\n\n\n\n\n\nOct 29, 2024\n\n\nRobinson Amanyiraho\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/dhis2r-0-2-0/index.html",
@@ -26,5 +26,19 @@
     "title": "dhis2r 0.2.0",
     "section": "",
     "text": "In Dhis2r$new() now includes api_token = NULL for authentication via personal access token option\nNew dhis2_connection$get_any_analytic() to GET long DHIS2 resources.\nFunctions now print out the resource link being queried\n\n\n\nAlternatively you can generate a personal access token and use that to connect.\nlibrary(dhis2r)\n\n# Replace the value of api_token with the token you have generated\n\ndhis2_play_connection &lt;- Dhis2r$new(base_url = \"https://play.im.dhis2.org/stable-2-40-5\",\n                                    api_token = \"d2pat_2EkxmqdxtwAGDGe1hXzpWEixYdvHGRw71587176066\")"
+  },
+  {
+    "objectID": "blog/dhis2r-0-3-0/index.html",
+    "href": "blog/dhis2r-0-3-0/index.html",
+    "title": "dhis2r 0.3.0",
+    "section": "",
+    "text": "Updated the package to fail gracefully with an informative message if the resource is not available or has changed and doesn’t give a check warning nor error\nNow API calls function print a massage “No internet connection!” if there is no internet connection instead of an error\nThe url is of the queried API endpoint is printed using message() instead of print()"
+  },
+  {
+    "objectID": "blog/dhis2r-0-3-0/index.html#dhis2r-0.3.0",
+    "href": "blog/dhis2r-0-3-0/index.html#dhis2r-0.3.0",
+    "title": "dhis2r 0.3.0",
+    "section": "",
+    "text": "Updated the package to fail gracefully with an informative message if the resource is not available or has changed and doesn’t give a check warning nor error\nNow API calls function print a massage “No internet connection!” if there is no internet connection instead of an error\nThe url is of the queried API endpoint is printed using message() instead of print()"
   }
 ]
